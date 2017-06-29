@@ -10,12 +10,12 @@
     <meta property="fb:app_id" content="1718385315077263"/>
     <meta property="og:url" content="https://kinvo-invoice.herokuapp.com/"/>
     <meta property="og:title" content="Invoice from Krispy Kreme"/>
-    <meta property="og:description" content="AMOUNT DUE: ₱ 520.00"/>
+    <meta property="og:description" content="AMOUNT DUE: ₱ 726.00"/>
     <meta property="og:image" content="https://kinvo-invoice.herokuapp.com/images/merchant-logo.jpg"/>
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Invoice from Krispy Kreme"/>
-    <meta name="twitter:description" content="AMOUNT DUE: ₱ 520.00"/>
+    <meta name="twitter:description" content="AMOUNT DUE: ₱ 726.00"/>
     <meta name="twitter:image" content="https://kinvo-invoice.herokuapp.com/images/merchant-logo.jpg"/>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -53,7 +53,7 @@
                   <div class="pb2">
                     <div class="flex items-center justify-start">
                       <img src="images/merchant-logo.jpg" class="merchant-photo mr1 dib br-100"/>
-                      <div class="flex flex-column"><span class="f7 fw7 black-80 word-break">Krispy Kreme PH</span><span class="f7 fw3 black-40">Merchant</span></div>
+                      <div class="flex flex-column"><span class="f7 fw7 black-80 word-break">Krispy Kreme</span><span class="f7 fw3 black-40">Merchant</span></div>
                     </div>
                   </div>
                 </div>
@@ -61,7 +61,7 @@
               <div class="mb2">
                 <div class="pt3 pb3 pt4-l pb4-l">
                   <div class="flex flex-column tc">
-                    <h1 class="f1 fw3 green ma0">520.00</h1><span class="f7 black-40 ttu tracked">Amount Due</span>
+                    <h1 class="f1 fw3 green ma0">₱726.00</h1><span class="f7 black-40 ttu tracked">Amount Due</span>
                   </div>
                 </div>
               </div>
@@ -78,12 +78,12 @@
             <div class="flex">
               <div class="w-50 ba b--white-05 br2 mr2">
                 <div class="pa2 pt3 pb3">
-                  <div class="flex items-center justify-center"><span ng-if="invoice.data" class="f7 fw3 white-50 tracked">Invoice # kkR3mEinv01</span></div>
+                  <div class="flex items-center justify-center"><span ng-if="invoice.data" class="f7 fw3 white-50 tracked">Invoice # 1zRMdkZ</span></div>
                 </div>
               </div>
               <div class="w-50 ba b--white-05 br2">
                 <div class="pa2 pt3 pb3">
-                  <div class="flex items-center justify-center"><span ng-if="invoice.data" class="f7 fw3 white-50 tracked">Expires on August 1, 2017</span></div>
+                  <div class="flex items-center justify-center"><span ng-if="invoice.data" class="f7 fw3 white-50 tracked">Expires on Jul 13, 2017</span></div>
                 </div>
               </div>
             </div>
@@ -92,21 +92,21 @@
             <div class="ma2">
               <div ng-repeat="item in invoice.data.attributes.invoice_items" class="mt2 pb2 bb b--white-10">
                 <div class="flex items-center">
-                  <img src="" class="item-photo mr2"/>
+                  <img src="images/item-image.jpg" class="item-photo mr2"/>
                   <div class="w-100">
                     <div class="flex items-center justify-between">
                       <div class="item-details">
-                        <h1 class="f6 fw3 ma0 white-80 mb1">1 Dozen Original Glazed Doughnut</h1>
+                        <h1 class="f6 fw3 ma0 white-80 mb1">Dozen Original Glaze</h1>
                         <div class="flex justify-between">
-                          <div class="f7"><span>₱499.00</span><span> </span><span class="white-40">&times;</span><span> </span><span>1</span></div>
+                          <div class="f7"><span>₱363.00</span><span> </span><span class="white-40">&times;</span><span> </span><span>2</span></div>
                         </div>
                       </div>
-                      <div class="item-total"><span class="f7 fw7 tracked">₱499.00</span></div>
+                      <div class="item-total"><span class="f7 fw7 tracked">₱726.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="bg-white-10 br2">
+              <!-- <div class="bg-white-10 br2">
                 <div class="pl2 pr2 overflow-hidden">
                   <div ng-if="invoice.data.attributes.delivery_fee" class="fee flex items-center justify-between mt2 pb2">
                     <div class="flex items-center">
@@ -124,7 +124,7 @@
                     </div><span class="f7 fw7">₱20.00</span>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
