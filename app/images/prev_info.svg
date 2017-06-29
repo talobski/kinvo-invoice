@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>prev_info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-Invoice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Delivery-Info" transform="translate(-115.000000, -187.000000)" stroke="#3C82EB">
+            <g id="use-previous-detais" transform="translate(8.000000, 170.000000)">
+                <g id="prev_info" transform="translate(108.000000, 18.000000)">
+                    <path d="M9,14 C10.9329966,14 12.6829966,13.2164983 13.9497475,11.9497475 C15.2164983,10.6829966 16,8.93299662 16,7 C16,3.13400675 12.8659932,0 9,0 C5.13400675,0 2,3.13400675 2,7" id="Oval-22"></path>
+                    <polygon id="Triangle-1" stroke-linejoin="round" fill="#498FEB" transform="translate(2.000000, 8.000000) scale(1, -1) translate(-2.000000, -8.000000) " points="2 7 4 9 0 9"></polygon>
+                    <polyline id="Path-89" stroke-linejoin="round" points="9.07914749 4 9.07914749 7.3116495 11.9926773 7.3116495"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,3 +1,5 @@
+@import "tachyons.css";
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -5,25 +7,124 @@
   padding: 0.2em 0;
 }
 
+html, body {
+  height: 100%
+}
+
+* {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  font-size: .875rem;
+  color: #fff;
+  background-color: #2A2D34;
+  padding-top: 1px;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
+a, button {
+  cursor: pointer;
 }
 
-.hero-unit h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
+.label-section {
+  padding: 13px 0;
+  font-size: 14px;
+  color: #828386;
+}
+.label-section.large-label {
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.word-break {
+  word-break: break-word;
+}
+
+.f7 {
+  font-size: 0.75rem;
+}
+.f8 {
+  font-size: 0.65rem;
+}
+
+.green {
+  color: #38af33;
+}
+.bg-green {
+  background-color: #38af33;
+}
+
+.blue {
+  color: #3C82EB;
+}
+.bg-blue {
+  background-color: #3C82EB;
+}
+.b--blue {
+  border-color: #3C82EB;
+}
+.bg-purple {
+  background-color: #506FBF;
+}
+.bg-gray {
+  background-color: #363A41;
+}
+
+
+.bg-dark {
+  background-color: #363A41;
+}
+
+.merchant-photo {
+  background-image: image-url("placeholder_store.png");
+  background-color: #E0E3EA;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.7rem;
+  width: 1.7rem;
+  min-height: 1.7rem;
+  min-width: 1.7rem;
+}
+.item-photo {
+  background-image: image-url("placeholder_item.png");
+  background-color: #E0E3EA;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.4rem;
+  width: 2.4rem;
+  min-height: 2.4rem;
+  min-width: 2.4rem;
+}
+.fee {
+  box-shadow: 0 1px 0 0 rgba(#fff, 0.08);
+}
+.fee__icon {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.fee__icon--delivery {
+  background-image: url("../images/icon_delivery.png");
+}
+.fee__icon--other {
+  background-image: url("../images/icon_other.png");
+}
+.fee__icon--tax {
+  background-image: url("../images/icon_tax.png");
+}
+.invoice-action {
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: #D24A4A;
 }

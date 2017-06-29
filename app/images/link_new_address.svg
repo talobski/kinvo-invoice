@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>link_new_address</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-Invoice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Delivery-Info" transform="translate(-105.000000, -186.000000)" stroke="#498FEB">
+            <g id="add" transform="translate(8.000000, 170.000000)">
+                <g id="link_new_address" transform="translate(97.000000, 17.000000)">
+                    <path d="M20,5.20851184 C20,8.08508308 14.4999627,16 14.4999627,16 C14.4999627,16 9,8.08508308 9,5.20851184 C9,2.3319406 11.4624616,0 14.5000373,0 C17.537613,0 20,2.3319406 20,5.20851184 L20,5.20851184 Z" id="Shape"></path>
+                    <ellipse id="Oval" cx="14.5" cy="4.5" rx="1.5" ry="1.5"></ellipse>
+                    <path d="M3.5,1 L3.5,7" id="Path-306" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.5,1 L3.5,7" id="Path-306" stroke-linecap="round" stroke-linejoin="round" transform="translate(3.500000, 4.000000) rotate(-90.000000) translate(-3.500000, -4.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
